@@ -21,7 +21,7 @@ def load_data(file_path: str) -> pd.DataFrame:
 def prepare_features(df: pd.DataFrame):
     print("Preparing features and target...")
 
-    X = df.drop(columns=["target", "purchase", "cart"], errors="ignore")
+    X = df.drop(columns=["target", "purchase"], errors="ignore")
     y = df["target"]
 
     print("Feature shape:", X.shape)
