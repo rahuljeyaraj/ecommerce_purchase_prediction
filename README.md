@@ -1,4 +1,4 @@
-# 🛒 E-commerce Purchase Prediction System
+# E-commerce Purchase Prediction System
 
 ## Overview
 
@@ -232,12 +232,14 @@ API docs:
 ```text
 http://127.0.0.1:8000/docs
 ```
+<img width="1213" height="797" alt="image" src="https://github.com/user-attachments/assets/2925ac7e-dd40-4787-bd6d-8eb29cdcdb8a" />
 
 ### 6. Run Streamlit UI
 
 ```bash
 streamlit run ui/app.py
 ```
+<img width="997" height="1048" alt="image" src="https://github.com/user-attachments/assets/81ae4cf1-d511-45e6-941f-2c9329de4198" />
 
 ---
 
